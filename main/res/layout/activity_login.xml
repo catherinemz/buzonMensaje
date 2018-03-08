@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10sp"
+    android:background="@drawable/blue_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/la_josefa"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Correo electrónico"
+        android:id="@+id/edt_email_login"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20sp"
+        android:background="@drawable/border"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_account_circle_white_24dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Contraseña"
+        android:id="@+id/edt_password_login"
+        android:inputType="textPassword"
+        android:layout_margin="20sp"
+        android:background="@drawable/border"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="Entrar"
+        android:id="@+id/btn_login_login"
+        android:background="@drawable/border"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:text="Registrarme"
+            android:id="@+id/btn_register_login"
+            android:background="@drawable/border"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</LinearLayout>
